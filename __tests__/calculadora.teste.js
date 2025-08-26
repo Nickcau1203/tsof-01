@@ -53,7 +53,7 @@ describe("Calculadora", () => {
         expect(resultado).toBe(2);
     });
 
-     test("Deve lançar erro ao dividir por zero", () => {
+     test("Não podi dividir por zero!", () => {
         expect(() => {
             dividir(10, 0);
         }).toThrow("Não podi dividir por zero!");
